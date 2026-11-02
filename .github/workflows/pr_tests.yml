@@ -162,7 +162,7 @@ jobs:
 
   acceptance:
     runs-on:
-      - ubuntu-latest
+      - ubuntu-24.04
     strategy:
       matrix:
         node:
